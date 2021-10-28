@@ -1,4 +1,4 @@
-## Music player
+## Getting started with MusicBox
 
 > npm install\
 npm install node-sass\
