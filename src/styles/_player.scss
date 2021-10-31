@@ -34,6 +34,10 @@
 input[type="range"]:focus{
     outline: none;
 }
+input[type="range"]::-moz-range-thumb {
+    background: none;
+    border: none;
+}
 input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
     height: 16px;
