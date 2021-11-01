@@ -2,6 +2,15 @@ import { v4 as uuidv4 } from "uuid";
 function chillHop() {
   return [
     {
+      name: "Sirens",
+      artist: "Cloudchord, Smile High, Teddy Roxpin",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=21742",
+      color: ["#D54848", "#ABC5CF"],
+      cover: "https://uploads-ssl.webflow.com/5fc4bca9bd65e8f2bf87f576/61226ba21704e25a2ece5728_tet0c8gdl30scqu-p-1080.png",
+      id: uuidv4(),
+      active: false
+    },
+    {
       name: "Beaver Creek",
       cover:
         "https://chillhop.com/wp-content/uploads/2020/09/0255e8b8c74c90d4a27c594b3452b2daafae608d-1024x1024.jpg",
@@ -59,15 +68,6 @@ function chillHop() {
         color: ["#205950", "#2ab3bf"],
         id: uuidv4(),
         active: false,
-    },
-    {
-        name: "Sirens",
-        artist: "Cloudchord, Smile High, Teddy Roxpin",
-        audio: "https://mp3.chillhop.com/serve.php/?mp3=21742",
-        color: ["#D54848", "#ABC5CF"],
-        cover: "https://uploads-ssl.webflow.com/5fc4bca9bd65e8f2bf87f576/61226ba21704e25a2ece5728_tet0c8gdl30scqu-p-1080.png",
-        id: uuidv4(),
-        active: false
     }
   ];
 }
