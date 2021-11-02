@@ -44,16 +44,16 @@ input[type="range"]::-moz-range-thumb {
     background: none;
     border: none;
 }
-// input[type=range]::-ms-track {
-//     background: transparent;
-//     border: none;
-//     border-color: transparent;
-// }
-// input[type=range]::-ms-thumb {
-//     background: transparent;
-//     border: none;
-//     border-color: transparent;
-// }
+input[type=range]::-ms-track {
+    background: transparent;
+    border: none;
+    border-color: transparent;
+}
+input[type=range]::-ms-thumb {
+    background: transparent;
+    border: none;
+    border-color: transparent;
+}
 .track {
     position: relative;
     width: 100%;
